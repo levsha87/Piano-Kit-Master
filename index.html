@@ -1,42 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <title>Piano Kit Master</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel='stylesheet' href='style.css' />
   </head>
   <body>
-    <main>
-      <div data-key="68" class="key">
+    <main class='keys'>
+      <div data-key='68' class='key' >
         <kbd>D</kbd>
-        <span class="sound">Do</span>
+        <span class='sound'>Do</span>
       </div>
-      <div data-key="70" class="key">
+      <div data-key='70' class='key'>
         <kbd>F</kbd>
-        <span class="sound">Re</span>
+        <span class='sound'>Re</span>
       </div>
-      <div data-key="71" class="key">
+      <div data-key='71' class='key'>
         <kbd>G</kbd>
-        <span class="sound">Mi</span>
+        <span class='sound'>Mi</span>
       </div>
-      <div data-key="72" class="key">
+      <div data-key='72' class='key'>
         <kbd>H</kbd>
-        <span class="sound">Fa</span>
+        <span class='sound'>Fa</span>
       </div>
-      <div data-key="74" class="key">
+      <div data-key='74' class='key'>
         <kbd>J</kbd>
-        <span class="sound">Sol</span>
+        <span class='sound'>Sol</span>
       </div>
-      <div data-key="75" class="key">
+      <div data-key='75' class='key'>
         <kbd>K</kbd>
-        <span class="sound">Lja</span>
+        <span class='sound'>Lja</span>
       </div>
-      <div data-key="76" class="key">
+      <div data-key='76' class='key'>
         <kbd>L</kbd>
-        <span class="sound">Si</span>
+        <span class='sound'>Si</span>
       </div>
     </main>
-    <script src="/app.js"></script>
+    <audio data-key='68' src='sounds/1_do.mp3' type='audio/mp3'></audio>
+    <audio data-key='70' src='sounds/2_re.mp3' type='audio/mp3'></audio>
+    <audio data-key='71' src='sounds/3_mi.mp3' type='audio/mp3'></audio>
+    <audio data-key='72' src='sounds/4_fa.mp3' type='audio/mp3'></audio>
+    <audio data-key='74' src='sounds/5_sol.mp3' type='audio/mp3'></audio>
+    <audio data-key='75' src='sounds/6_lja.mp3' type='audio/mp3'></audio>
+    <audio data-key='76' src='sounds/7_si.mp3' type='audio/mp3'></audio>
+    <script src='/app.js'></script>
   </body>
 </html>
